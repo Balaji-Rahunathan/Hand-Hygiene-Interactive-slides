@@ -387,7 +387,7 @@ ul li::before {
     justify-content: center;
     align-items: center;
     border-radius: 10px;
-    /* margin:0rem 1rem */
+    margin:10px
 }
 
 .imageContainer{
@@ -427,13 +427,13 @@ ul li::before {
     /* height: 100%; */
 
 }
-/* .header{
-    margin: 50px 0px;
-    padding: 0px;
-    width:80%;
+.header{
+    /* margin: 50px 0px; */
+    /* padding: 0px; */
+    width:90%;
     justify-content: center;
     align-items: center;
-} */
+}
 h1{
     font-size: 1.2rem;
     font-weight: 900;
@@ -447,7 +447,7 @@ h1{
     text-align: center;
 }
 .colored{
-    font-size: 1.2rem;
+    font-size: 1rem;
     font-weight: 900;
     font-family: 'Montserrat', sans-serif;
     color: #3fbcf9;
