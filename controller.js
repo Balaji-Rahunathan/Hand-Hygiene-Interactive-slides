@@ -1,4 +1,4 @@
-var slideIndex = 1;
+var slideIndex = 10;
 showDivs(slideIndex);
 
 function plusDivs(n) {  
