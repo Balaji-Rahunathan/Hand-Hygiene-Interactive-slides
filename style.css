@@ -13,12 +13,20 @@
     z-index: -10;
 
 }
+.logo{
+    position: fixed;
+    top:3%;
+    left: 3%;
+    width: 40px;
+    z-index: -10;
+
+}
 canvas {
     position: absolute;
     bottom: 0;
     left: 0;
     width: 100%;
-    z-index: -100;
+    z-index: -1;
   }
 .mainContainer{
     width:100%;
@@ -38,7 +46,7 @@ canvas {
     width:300px;
 }
 .header{
-    margin: 50px 50px 0px 50px;
+    margin: 100px 50px 0px 50px;
     padding: 0px 100px 20px 100px;
     width:60%;
     justify-content: center;
@@ -63,7 +71,7 @@ h1{
     font-size: 25px;
     font-weight: 800;
     font-family: 'Montserrat', sans-serif;
-    color: #3fbcf9;
+    color: #3F81E0;
 }
 .slide{
     display: flex;
@@ -428,7 +436,7 @@ ul li::before {
 
 }
 .header{
-    /* margin: 50px 0px; */
+    margin-top:50px;
     /* padding: 0px; */
     width:90%;
     justify-content: center;
@@ -450,7 +458,7 @@ h1{
     font-size: 1rem;
     font-weight: 900;
     font-family: 'Montserrat', sans-serif;
-    color: #3fbcf9;
+    color: #3F81E0;
 }
 .nextButton{
     display: flex;

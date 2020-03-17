@@ -14,7 +14,7 @@ function plusDivs(n) {
     }
     showDivs(slideIndex += n);
     $("html, body").animate({ scrollTop: 0 },100);
-    reset()
+    // reset()
 }
 
 function showDivs(n) {
